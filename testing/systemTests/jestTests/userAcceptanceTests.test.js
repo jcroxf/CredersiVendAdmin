@@ -16,3 +16,8 @@ test("Password field is initially empty", async() => {
     const element = await browser.getElement("password");
     expect(element.value).toBe();
 });
+
+test("Initially has a page heading/title", async () => {
+    const element =  await browser.getElementByCss("h1");
+    expect(element.value).toBe("Credersi-vend Admin Login")
+});
