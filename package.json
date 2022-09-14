@@ -1,0 +1,26 @@
+{
+  "name": "final-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "AcceptanceTest.test.js",
+  "scripts": {
+    "third": "jest",
+    "test": "cucumber-js"
+     },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcroxf/CredersiVendAdmin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcroxf/CredersiVendAdmin/issues"
+  },
+  "homepage": "https://github.com/jcroxf/CredersiVendAdmin#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.5.2",
+    "chromedriver": "^105.0.0",
+    "jest": "^29.0.2",
+    "selenium-webdriver": "^4.4.0"
+  }
+}
