@@ -1,5 +1,5 @@
 const cucumber = require("@cucumber/cucumber");
-const Browser = require("../../testing/systemTests/jestTests/Browser");
+const Browser = require("../../00. Testing/systemTests/jestTests/Browser");
 
 class CustomWorld {
     constructor() {
