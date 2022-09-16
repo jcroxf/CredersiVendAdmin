@@ -33,7 +33,7 @@ body:
       description: What version of our software are you running?
       options:
         - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - 1.0.3 (Hotfix)
     validations:
       required: true
   - type: dropdown
@@ -46,6 +46,16 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
+  - type: dropdown
+    id: operatingSystem
+    attributes:
+      label: What Operating System are you seeing the problem on?
+      multiple: true
+      options:
+        - Windows 7
+        - Windows 10
+        - Windows 11
+        - Mac OS
   - type: textarea
     id: logs
     attributes:
@@ -62,11 +72,20 @@ body:
         - Medium
         - High
         - Severe
+  - type: dropdown
+    id: priority
+    attributes:
+      label: What is the priority of the bug?
+      multiple: true
+      options:
+        - Low
+        - Medium
+        - High
   - type: checkboxes
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://credersi-vend.com/codeconduct)
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
